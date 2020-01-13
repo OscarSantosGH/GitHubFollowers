@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GitHubFollowers
 //
-//  Created by Oscar Santos on 1/4/20.
+//  Created by Oscar Santos on 1/12/20.
 //  Copyright © 2020 Oscar Santos. All rights reserved.
 //
 
