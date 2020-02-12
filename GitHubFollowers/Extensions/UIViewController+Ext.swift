@@ -9,8 +9,6 @@
 import UIKit
 import SafariServices
 
-fileprivate var containerView:UIView!
-
 extension UIViewController{
     
     func presentGFAlertOnMainThread(title: String, message: String, buttonTitle: String){
@@ -28,40 +26,4 @@ extension UIViewController{
         present(safariVC, animated: true)
     }
     
-    func showLoadingView(){
-        containerView = UIView(frame: view.bounds)
-        view.addSubview(containerView)
-        
-        containerView.backgroundColor = .systemBackground
-        containerView.alpha = 0
-        
-        UIView.animate(withDuration: 0.30) {
-            containerView.alpha = 0.8
-        }
-        
-        let activityIndicador = UIActivityIndicatorView(style: .large)
-        containerView.addSubview(activityIndicador)
-        
-        activityIndicador.translatesAutoresizingMaskIntoConstraints = false
-        
-        NSLayoutConstraint.activate([
-            activityIndicador.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            activityIndicador.centerXAnchor.constraint(equalTo: view.centerXAnchor)
-        ])
-        
-        activityIndicador.startAnimating()
-    }
-    
-    func dismissLoadingView(){
-        DispatchQueue.main.async {
-            containerView.removeFromSuperview()
-            containerView = nil
-        }
-    }
-    
-    func showEmptyStateVIew(with message:String, in view:UIView){
-        let emptyStateView = GFEmptyStateView(message: message)
-        emptyStateView.frame = view.bounds
-        view.addSubview(emptyStateView)
-    }
 }
