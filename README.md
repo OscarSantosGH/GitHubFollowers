@@ -13,7 +13,7 @@ In this screen you can typed a username and you recive the list of their fallowe
 
 ## Followers Screen
 
-This screen shows the user's followers list. The user can search for an specific follower with the search bar. This screen used Diffable Data Source to filter the list with a beatiful animation.
+This screen shows the user's followers list. The user can search for an specific follower with the search bar. This screen used Diffable Data Source to filter the list with a beautiful animation.
 
 ![Followers screen image](https://github.com/OscarSantosGH/imagesAndGifs/blob/master/GHFollowers/GHFollowersList.PNG?raw=true "Followers screen image")
 ![Followers screen diffable data source](https://github.com/OscarSantosGH/imagesAndGifs/blob/master/GHFollowers/GHdiffableDataSource.gif?raw=true "Followers screen diffable data source")
