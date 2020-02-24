@@ -24,17 +24,20 @@ This screen shows the user's followers list. The user can search for an specific
 When the user selects a follower their details are shown in a modal view _("card style")_. The **GitHub Profile** button open a _SFSafariViewController_ with the follower's GitHub profile and the **Get Followers** button dismiss the modal view an reload the Follower list with this user followers.
 
 ![User Info image](https://github.com/OscarSantosGH/imagesAndGifs/blob/master/GHFollowers/GHInfoScreen.PNG?raw=true "User Info image")
+![SafariVC image](https://github.com/OscarSantosGH/imagesAndGifs/blob/master/GHFollowers/GHsafariVC.PNG?raw=true "SafariVC image image")
 
 ## Favorite Screen
 
-The user can see the favorites on the second tab. This are the followers that you save in the database.
+The user can see the favorites on the second tab. This are the followers that you save in the database. The User can delete a favorite to remove it from the list.
 
 ![Favorite image](https://github.com/OscarSantosGH/imagesAndGifs/blob/master/GHFollowers/GHFavorites.PNG?raw=true "Favorite image")
+![Delete Favorite image](https://github.com/OscarSantosGH/imagesAndGifs/blob/master/GHFollowers/GHdeleteFavorite.gif?raw=true "Delete Favorite image")
 
 ## Custom Alert View
 
 This app uses a custom alert view to display errors and messages.
 
 ![Custom Alert image](https://github.com/OscarSantosGH/imagesAndGifs/blob/master/GHFollowers/GHCustomAlertView.PNG?raw=true "Custom Alert image")
+![Custom Alert image 2](https://github.com/OscarSantosGH/imagesAndGifs/blob/master/GHFollowers/GHCustomAlertView2.PNG?raw=true "Custom Alert image 2")
 
 
