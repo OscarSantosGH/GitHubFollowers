@@ -1,6 +1,6 @@
 # GitHubFollowers
 
-This app used the _GitHub API_ to get the list of followers of any user on GitHub. The app can stored users in the app data base to keep the user in the app even if you close it. The UI is completely built with code without Storyboard. This is my version of the code from [SAllen0400's course](https://seanallen.teachable.com/) called _"iOS Dev Job Interview Practice - Take Home Project"_. I really recomend this course if you are a beguinner or even an avanced IOS Developer.
+This app used the _GitHub API_ to get the list of followers of any user on GitHub. The app can stored users in the app database to keep the user in the app even if you close it. The UI is completely built with code without Storyboard. This is my version of the code from [SAllen0400's course](https://seanallen.teachable.com/) called _"iOS Dev Job Interview Practice - Take Home Project"_. I really recommend this course if you are a beginner or even an advanced iOS Developer.
 
 
 ## Home Screen and Dark Mode example.
